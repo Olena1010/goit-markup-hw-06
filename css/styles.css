@@ -608,6 +608,7 @@ margin: 0;
   outline: transparent;
  }
 .form-footer-submit {
+  display: flex;
   color: var(--primery-white-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -633,12 +634,9 @@ margin: 0;
   height: 20px;
   fill: #FFFFFF;
   margin-right: 0;
-  
-
-  
-  
-  
+  margin-left: 16px; 
 }
+
  .visually-hidden {
   position: absolute;
   width: 1px;
